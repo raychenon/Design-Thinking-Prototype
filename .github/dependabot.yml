@@ -11,4 +11,4 @@ updates:
     #   interval: "daily"
     schedule:
       interval: "cron"
-      cronjob: "0 */2 * * *"
+      cronjob: "0 */12 * * *"
