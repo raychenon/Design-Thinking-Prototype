@@ -7,8 +7,5 @@ version: 2
 updates:
   - package-ecosystem: "gradle" # See documentation for possible values
     directory: "/" # Location of package manifests
-    # schedule:
-    #   interval: "daily"
     schedule:
-      interval: "cron"
-      cronjob: "0 */2 * * *"
+      interval: "daily"
