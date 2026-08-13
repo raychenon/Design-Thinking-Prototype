@@ -17,9 +17,13 @@ Rather than a wireframe mockup, I built this real-world project as the interacti
 The [pull requests section](https://github.com/raychenon/Design-Thinking-Prototype/pulls) contains PRs awaiting human validation.
 
 - The only pull request created by a human is tagged with the yellow **`manual-fix`** label.
-- All other pull requests were created by non-human agents.
-- Human accountability remains a required part of the verification process.
+- All other pull requests were created by non-human agents, authored as `Bot`. **Dependabot** created most of the open PRs to automate routine dependency and security upgrades.
+
+![github_pr](docs/github_bot.png)
+
+Human accountability remains a required part of the verification process.
 
 ## GitHub Video Tutorial
 
 Access the [workflow video demonstration](https://drive.google.com/file/d/1gA-B7tq44KhQ4GH6FJ0yY8YtUDKsig8v/view?usp=sharing).
+
