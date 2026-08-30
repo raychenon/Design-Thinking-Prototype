@@ -1,7 +1,7 @@
 plugins {
 	java
 	war
-	id("org.springframework.boot") version "4.0.5"
+	id("org.springframework.boot") version "4.1.0"
 	id("io.spring.dependency-management") version "1.1.7"
 }
 
@@ -27,8 +27,8 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-security-saml2")
 	implementation("org.springframework.boot:spring-boot-starter-webmvc")
 	implementation("io.micrometer:micrometer-tracing-bridge-brave")
-	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:3.0.2")
-	implementation("ch.qos.logback:logback-classic:1.1.11")
+	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:3.0.3")
+	implementation("ch.qos.logback:logback-classic:1.6.1")
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
 	providedRuntime("org.springframework.boot:spring-boot-starter-tomcat-runtime")
