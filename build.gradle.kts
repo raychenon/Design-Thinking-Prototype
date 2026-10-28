@@ -27,7 +27,7 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-security-saml2")
 	implementation("org.springframework.boot:spring-boot-starter-webmvc")
 	implementation("io.micrometer:micrometer-tracing-bridge-brave")
-	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:3.0.2")
+	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:3.2.0")
 	implementation("ch.qos.logback:logback-classic:1.1.11")
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
